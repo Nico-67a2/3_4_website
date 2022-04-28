@@ -103,13 +103,19 @@ address {
 
 div.gallery {
   margin: 5px;
-  border: 1px solid #FFFFFF;
+  border: 15px solid #FFFFFF;
   float: left;
   width: 180px;
 }
 
+div.gallery-col {
+  margin-top: 10px;
+  vertical-align: middle;
+  padding: 0 4px;	
+}
+
 div.gallery:hover {
-  border: 1px solid #FFFFFF;
+  border: 15px solid #FFFFFF;
 }
 
 div.gallery img {
@@ -655,8 +661,8 @@ pre code {
 .col-xl-auto {
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .col {
