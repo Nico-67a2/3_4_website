@@ -144,42 +144,84 @@
     	<br>
   <div class="row"> 	
     <div class="col-2">     
-		<div class="gallery"> 
-			<img src="images/photo of all.jpg" alt="photo of class" width="600" height="400"> 
-			<img src="images/HC_0212.jpg" alt="burpee" width="500" height="400">
+	  <div class="gallery"> 
+		<img src="images/photo of all.jpg" alt="photo of class" width="600" height="400" onclick="myFunction(this);"> 
       	<div class="desc"> </div>
-        </div>
+      </div>
 	</div>	
 	<div class="col-2">      
-    	<div class="gallery"> 
-			<img src="images/full class.jpg" alt="Full class" width="600" height="400"> 
-      		<img src="images/HC_0338.jpg" alt="skip" width="500" height="400">
+      <div class="gallery"> 
+		<img src="images/full class.jpg" alt="Full class" width="600" height="400" onclick="myFunction(this);"> 
       	<div class="desc"> </div>
-    	</div>
+      </div>
 	</div>		
     <div class="col-2">  
 	  <div class="gallery"> 
-		<img src="images/run.jpg" alt="Run" width="600" height="400"> 
-      	<img src="images/timetable cardio.jpg" alt="cardio" width="600" height="400">
-      <div class="desc"> </div>	
+		<img src="images/run.jpg" alt="Run" width="600" height="400" onclick="myFunction(this);"> 
+        <div class="desc"> </div>	
 	  </div>	  
     </div>
 	<div class="col-2">  
       <div class="gallery"> 
-		<img src="images/outside hiit.jpg" alt="outside hiit" width="600" height="400">
-      	<img src="images/timetable cardio.jpg" alt="cardio" width="600" height="400">
-      <div class="desc"> </div>
+		<img src="images/outside hiit.jpg" alt="outside hiit" width="600" height="400" onclick="myFunction(this);">
+        <div class="desc"> </div>
       </div>
 	</div>	
 	<div class="col-2">  	  
 	  <div class="gallery"> 
-		<img src="images/outside hiit.jpg" alt="outside hiit" width="600" height="400">
-      	<img src="images/timetable cardio.jpg" alt="cardio" width="600" height="400">
-      <div class="desc"> </div>
+		<img src="images/outside hiit.jpg" alt="outside hiit" width="600" height="400" onclick="myFunction(this);">
+        <div class="desc"> </div>
+      </div>
+	</div>	
+	 
+  </div>	  
+	  
+  <div class="row"> 	
+    <div class="col-2">     
+	  <div class="gallery"> 
+		<img src="images/HC_0212.jpg" alt="burpee" width="500" height="400" onclick="myFunction(this);">
+      	<div class="desc"> </div>
+      </div>
+	</div>	
+	<div class="col-2">      
+      <div class="gallery"> 
+      	<img src="images/HC_0338.jpg" alt="skip" width="500" height="400" onclick="myFunction(this);">
+      	<div class="desc"> </div>
+      </div>
+	</div>		
+    <div class="col-2">  
+	  <div class="gallery"> 
+      	<img src="images/timetable cardio.jpg" alt="cardio" width="600" height="400" onclick="myFunction(this);">
+        <div class="desc"> </div>	
+	  </div>	  
+    </div>
+	<div class="col-2">  
+      <div class="gallery"> 
+      	<img src="images/timetable cardio.jpg" alt="cardio" width="600" height="400" onclick="myFunction(this);">
+        <div class="desc"> </div>
+      </div>
+	</div>	
+	<div class="col-2">  	  
+	  <div class="gallery"> 
+      	<img src="images/timetable cardio.jpg" alt="cardio" width="600" height="400" onclick="myFunction(this);">
+        <div class="desc"> </div>
       </div>
 	</div>	
   </div>
-	</div>
+
+
+<!-- The expanding image container -->
+<div class="big_pic_container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%" alt="">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>	
+	</div>	
 </section>
 	
 

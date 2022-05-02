@@ -101,7 +101,7 @@ address {
 }
 
 
-div.gallery {
+gallery {
   margin: 5px;
   border: 15px solid #FFFFFF;
   float: none;
@@ -123,6 +123,39 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.big_pic_container {
+  position: relative;
+  display: none;
+}
+
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
 }
 
 ol,
