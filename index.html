@@ -1,53 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The HIIT CREW</title>
-<!-- Bootstrap -->
-<link href="css/bootstrap-4.4.1.css" rel="stylesheet"/>
 
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>The HIIT CREW</title>
 	
-</head>
-<body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <a class="navbar-brand" href="#"> <img src="images/hiitlogoblack.PNG" alt height="120" width="200"> </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-  
-	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-    
-	<ul class="navbar-nav mr-auto">
-      
-		<li class="nav-item active"> 
-		  <a class="nav-link" href="#index.html">Home <span class="sr-only">(current)</span></a> 
-	  	</li>
+	<!-- Bootstrap -->
+		<link href="css/bootstrap-4.4.1.css" rel="stylesheet"/>
 
-      	<li class="nav-item dropdown"> 
-			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Info </a>
-        			
-			<div class="dropdown-menu" aria-labelledby="navbarDropdown"> 
-				<a class="dropdown-item" href="#classes">Classes</a>
-          		<div class="dropdown-divider"></div>
-          			<a class="dropdown-item" href="#trainers">Trainers</a>
-          		<div class="dropdown-divider"></div>
-          			<a class="dropdown-item" href="#memberships">Memberships</a> 
-			    <div class="dropdown-divider"></div>
-          			<a class="dropdown-item" href="#gallerysection">Gallery</a> 	
-			</div>
-      	</li>
-		<li class="nav-item"> 
-			<a class="nav-link" href="#about">About Us 
-					<span class="sr-only">(About Us)
-					</span>
-				</a> 
-		 </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
+	</head>
+
+	<body>
+		
+		<!-- add a sticky nav bar so you can go straight to places -->
+
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"> 
+			<a 
+			   class="navbar-brand" href="#"> 
+				<img src="images/hiitlogoblack.PNG" alt="" height="120" width="200"> 
+			</a>
+			
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-	expanded="false" aria-label="Toggle navigation"> 
+				<span 
+					  class="navbar-toggler-icon">
+				</span> 
+			</button>
+			
+  <!-- Nav Bar Links -->
+			
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    
+				<ul class="navbar-nav mr-auto">
+
+					<li class="nav-item active"> 
+					  <a class="nav-link" href="#index.html">Home 
+						  <span 
+								class="sr-only">(current)
+						  </span>
+					  </a> 
+					</li>
+					<li class="nav-item"> 
+						<a class="nav-link" href="#classes">Classses 
+								<span 
+									  class="sr-only">(Classes)
+								</span>
+							</a> 
+					</li>
+					<li class="nav-item"> 
+						<a class="nav-link" href="#trainers">Trainers 
+								<span 
+									  class="sr-only">(Trainers)
+								</span>
+							</a> 
+					</li>				
+					<li class="nav-item"> 
+						<a class="nav-link" href="#memberships">Memberships 
+								<span 
+									  class="sr-only">(Memberships)
+								</span>
+							</a> 
+					</li>	
+					<li class="nav-item"> 
+						<a class="nav-link" href="#gallerysection">Gallery 
+								<span 
+									  class="sr-only">(Gallery)
+								</span>
+							</a> 
+					</li> 
+
+					<li class="nav-item"> 
+						<a class="nav-link" href="#about">About Us 
+								<span 
+									  class="sr-only">(About Us)
+								</span>
+							</a> 
+					 </li>
+			</ul>
+
+	  </div>
+				
+	</nav>
 
 	
 <!-- This section is the about us section using pictures and words to create a sesne of what this gym is and does  --> 	
@@ -62,8 +97,11 @@
   				<img class="mySlides" src="images/fullclass.jpg" alt="" style="width:100%">
   				<img class="mySlides" src="images/HC_0321.jpg" alt="" style="width:100%">
   				<img class="mySlides" src="images/HC_0113.jpg" alt="" style="width:100%">	
-         
-		  <div class="about" id="about">	
+
+<!-- This Section is information about Hiit has available 
+added padding so that the navbar doesn't cover section title -->	
+			
+		  <div class="about" id="about" style="padding-top:160px">	
 			<h1>About Us</h1>
           		<p> 
 					The Hiit Crew combines functional body weight movements, exercise machines, boxing, core, stabilization and strength into a circuit that will get your heart rate pumping.
@@ -81,10 +119,12 @@
   </div> 
 </section>
 	
-<!-- This Section is information about what types of classes Hiit has available -->	
+<!-- This Section is information about what types of classes Hiit has available 
+added padding so that the navbar doesn't cover section title -->	
+		
 	
 <section>
-	<div class="classes" id="classes">	
+	<div class="classes" id="classes" style="padding-top:160px">	
   		<div class="container">
     		<div class="row">
       			<div class="col-12 text-center">
@@ -205,31 +245,31 @@
   	<div class="row"> 	
     	<div class="col-2">     
 	  		<div class="gallery"> 
-				<img src="images/photoofall.jpg" alt="photo of class" width="600" height="400" onclick="myFunction(this);"> 
+				<img src="images/photoofall.jpg" alt="photo of class" width="600" height="400" onclick="zoomIt(this);"> 
       			<div class="desc"> </div>
       		</div>
 		</div>	
 		<div class="col-2">      
       		<div class="gallery"> 
-				<img src="images/fullclass.jpg" alt="Full class" width="600" height="400" onclick="myFunction(this);"> 
+				<img src="images/fullclass.jpg" alt="Full class" width="600" height="400" onclick="zoomIt(this);"> 
       			<div class="desc"> </div>
       		</div>
 		</div>		
     	<div class="col-2">  
 	  		<div class="gallery"> 
-				<img src="images/run.jpg" alt="Run" width="600" height="400" onclick="myFunction(this);"> 
+				<img src="images/run.jpg" alt="Run" width="600" height="400" onclick="zoomIt(this);"> 
         		<div class="desc"> </div>	
 	  		</div>	  
     	</div>
 		<div class="col-2">  
       		<div class="gallery"> 
-				<img src="images/outsidehiit.jpg" alt="outside hiit" width="600" height="400" onclick="myFunction(this);">
+				<img src="images/outsidehiit.jpg" alt="outside hiit" width="600" height="400" onclick="zoomIt(this);">
         		<div class="desc"> </div>
       		</div>
 		</div>	
 		<div class="col-2">  	  
 	  		<div class="gallery"> 
-				<img src="images/HC_0321.jpg" alt="assault bike" width="600" height="400" onclick="myFunction(this);">
+				<img src="images/HC_0321.jpg" alt="assault bike" width="600" height="400" onclick="zoomIt(this);">
         		<div class="desc"> </div>
       		</div>
 		</div>	
@@ -239,31 +279,31 @@
   	<div class="row"> 	
     	<div class="col-2">     
 	  		<div class="gallery"> 
-				<img src="images/HC_0212.jpg" alt="burpee" width="500" height="400" onclick="myFunction(this);">
+				<img src="images/HC_0212.jpg" alt="burpee" width="500" height="400" onclick="zoomIt(this);">
       			<div class="desc"> </div>
       		</div>
 		</div>	
 		<div class="col-2">      
       		<div class="gallery"> 
-      			<img src="images/HC_0338.jpg" alt="skip" width="500" height="400" onclick="myFunction(this);">
+      			<img src="images/HC_0338.jpg" alt="skip" width="500" height="400" onclick="zoomIt(this);">
       			<div class="desc"> </div>
       		</div>
 		</div>		
     	<div class="col-2">  
 	  		<div class="gallery"> 
-      			<img src="images/timetablecardio.jpg" alt="cardio" width="600" height="400" onclick="myFunction(this);">
+      			<img src="images/timetablecardio.jpg" alt="cardio" width="600" height="400" onclick="zoomIt(this);">
         		<div class="desc"> </div>	
 	  		</div>	  
     	</div>
 		<div class="col-2">  
       		<div class="gallery"> 
-      			<img src="images/HC_0404.jpg" alt="rope" width="600" height="400" onclick="myFunction(this);">
+      			<img src="images/HC_0404.jpg" alt="rope" width="600" height="400" onclick="zoomIt(this);">
         		<div class="desc"> </div>
       		</div>
 		</div>	
 		<div class="col-2">  	  
 	  		<div class="gallery"> 
-      			<img src="images/HC_0113.jpg" alt="burpee " width="600" height="400" onclick="myFunction(this);">
+      			<img src="images/HC_0113.jpg" alt="burpee " width="600" height="400" onclick="zoomIt(this);">
         		<div class="desc"> </div>
       		</div>
 		</div>	
@@ -346,7 +386,12 @@
     <!-- Include all compiled plugins (below), or include individual files as needed  -->
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap-4.4.1.js"></script> 
-	<script src="js/myFunctions.js"></script> 
+<!--my scripts-->	
+	<script src="js/zoomIt.js"></script> 
+	<script src="js/carousel.js"></script> 
+		
+<!-- don't need to use custom sticky because bootstrap provides this	
+	<script src="js/sticky.js"></script>  --> 	
 
 
 </body>
