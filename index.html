@@ -10,6 +10,7 @@
 	
 	<!-- Bootstrap -->
 		<link href="css/bootstrap-4.4.1.css" rel="stylesheet"/>
+		<link href="css/video.css" rel="stylesheet"/>
 
 	</head>
 
@@ -229,18 +230,37 @@ added padding so that the navbar doesn't cover section title -->
 			 class="gallerysection" id="gallerysection" style="padding-top:160px"> 		
 		</div>	
     <div class="row"> 
+		
+<!-- this section we want to be videos that when you hover over with mouse they play -->		
 			
 		<div class="col-12 text-center">
 			  
 			<h1>Gallery</h1>
+		
 			  <a>
-			  <video width="320" height="240" controls>
-				<source src="videos/TJ.mp4" type="video/mp4">
-			  </video>
+	  			<div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2"> 			  
+					<video  onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" width="320" height="240">
+						<source src="videos/TJ.mp4" type="video/mp4" preload>
+					</video>
+					<video  onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" width="320" height="240">
+						<source src="videos/TJ.mp4" type="video/mp4" preload>
+					</video>					
+					<video  onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" width="320" height="240">
+						<source src="videos/TJ.mp4" type="video/mp4" preload>
+					</video>	
+					<video  onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" width="320" height="240">
+						<source src="videos/TJ.mp4" type="video/mp4" preload>
+					</video>	
+					<video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" width="320" height="240">
+						<source src="videos/TJ.mp4" type="video/mp4" preload>
+					</video>						
+				  </div>				  
 			  </a> 	
 			</div>
+			
+		</div>		
 
-	</div>		
+		
     <br>
 	  
 <!--   updated this from being a table to being a scrollable row this way you can add more pictures but not take uo more of the page

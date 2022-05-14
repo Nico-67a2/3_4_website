@@ -1,0 +1,14 @@
+
+
+.video {
+  background-image: none;
+  height: 600px;
+  width: 330px;
+  margin-bottom: 20px;
+  object-fit: cover;	
+}
+
+/* Hide Play button + controls on iOS */
+video::-webkit-media-controls {
+    display:none !important;
+}
