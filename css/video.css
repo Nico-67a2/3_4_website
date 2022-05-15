@@ -1,12 +1,16 @@
 
 
-.video {
-  background-image: none;
-  height: 600px;
-  width: 330px;
+.thevideo {
   margin-bottom: 20px;
   object-fit: cover;	
+  margin-right: 15px;		
 }
+
+.thevideo:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
 
 /* Hide Play button + controls on iOS */
 video::-webkit-media-controls {
