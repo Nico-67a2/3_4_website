@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+
+<!-- All images, videos, logos and text remain sole property of 'The Hiit Crew' @Copyright 2022 
+     and must not be used for any purpose, commercial or private. -->
+
 <html lang="en">
 
 	<head>
@@ -238,22 +242,37 @@ added padding so that the navbar doesn't cover section title -->
 			<h1>Gallery</h1>
 		
 			  <a>
-	  			<div class="scrolling-wrapper row flex-row flex-nowrap"> 			  
-					<video class="thevideo" onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" width="320" height="240">
-						<source src="videos/TJ.mp4" type="video/mp4">
-					</video>
-					<video class="thevideo" onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" width="320" height="240">
-						<source src="videos/TJ.mp4" type="video/mp4">
-					</video>					
-					<video class="thevideo" onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" width="320" height="240">
-						<source src="videos/TJ.mp4" type="video/mp4">
-					</video>	
-					<video class="thevideo" onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" width="320" height="240">
-						<source src="videos/TJ.mp4" type="video/mp4">
-					</video>	
-					<video class="thevideo" onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" width="320" height="240">
-						<source src="videos/TJ.mp4" type="video/mp4">
-					</video>
+	  			<div class="scrolling-wrapper row flex-row flex-nowrap">
+					<!-- added columns so that the first video can expand properly -->
+					<div class="col-1 pr-4"> </div>
+					<div class="col-3 pr-4"> 
+						<video class="thevideo" controls muted playsinline onmouseover="this.play();" onmouseout="this.pause();this.currentTime=0;" width="350" height="240" >
+							<source src="videos/TJ.mp4" type="video/mp4">
+						</video>
+						<h4>TJ at Hiit</h4>
+					</div>
+					<div class="col-1 pr-4"> </div>
+					<div class="col-3 pr-4"> 
+						<video class="thevideo" controls muted playsinline onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" width="350" height="240">
+							<source src="videos/HCPromo1.mp4" type="video/mp4">
+						</video>
+						<h4>The Hiit Crew</h4>
+					</div>
+					<div class="col-1 pr-4"> </div>
+					<div class="col-3 pr-4"> 
+						<video class="thevideo" controls muted playsinline onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" width="320" height="240">
+						<source src="videos/HCtrialclass.mp4" type="video/mp4">
+						</video>
+						<h4>Trial Class</h4>
+					</div>
+					<div class="col-1 pr-4"> </div>
+					<div class="col-3 pr-4"> 
+						<video class="thevideo" controls muted playsinline onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" width="320" height="240">
+							<source src="videos/teammember.mp4" type="video/mp4" >
+						</video>
+						<h4>Hiit Crew Team</h4>
+					</div>
+					<div class="col-1 pr-4"> </div>
 				  </div>				  
 			  </a> 	
 			</div>
@@ -363,7 +382,7 @@ added padding so that the navbar doesn't cover section title -->
 <div class="col-12 col-md-12">
   <div class="col-12 text-center col-xl-12"> 
 
-		<a> <img alt="facbook" src="images/hiitlogo.PNG" <alt height="135" width="135">
+		<a> <img alt="HiitLogo" src="images/hiitlogo.PNG"  height="135" width="135">
     </a>
 	  
 	
@@ -371,8 +390,10 @@ added padding so that the navbar doesn't cover section title -->
     <h3 class="text-center">Social Media </h3>
 	
 	 <div class="col-2 text-center col-xl-12"> 
-		 <a href="https://www.facebook.com/hiitcrewauckland/"> <img alt="facbook" src="images/facebooklogo.png" <alt height="50" width="50"> </a>
-	     <a href="https://www.instagram.com/hiit_crew_auckland/"> <img alt="instagram" src="images/insta.png" <alt height="65" width="65"></a>
+		 <a href="https://www.facebook.com/hiitcrewauckland"> 
+			 <img alt="facebook" src="images/facebooklogo.png" height="50" width="50"> </a>
+	     <a href="https://www.instagram.com/hiit_crew_auckland"> 
+			 <img alt="instagram" src="images/insta.png" height="65" width="65"></a>
 	</div>
 	
     <h3 class="text-center">GET IN TOUCH</h3>
@@ -400,18 +421,25 @@ added padding so that the navbar doesn't cover section title -->
 	
 <hr>
 	
-<footer class="text-center">
+<footer class="text-center" >
   <div class="container">
     <div class="row">
-      <div class="col-12">
-        <p>© 2022 The HIIT Crew.</p>
+      <div class="col-4">
+        <p><a href="privacy.html" style="color:white;">Privacy Policy.</a></p>
+      </div>		
+      <div class="col-4">
+        <p><a href="copyright.html" style="color:white;">© 2022 The HIIT Crew.</a></p>
       </div>
+      <div class="col-4">
+        <p><a href="legal.html" style="color:white;">Legal Notice.</a></p>
+      </div>		
     </div>
   </div>
 </footer>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins)  -->
     <script src="js/jquery-3.4.1.min.js"></script>
+	
     <!-- Include all compiled plugins (below), or include individual files as needed  -->
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap-4.4.1.js"></script> 
@@ -423,9 +451,8 @@ added padding so that the navbar doesn't cover section title -->
 but it will stop a lot of people from downloading images -->	
 		
 	<script src="js/rightclick.js"></script> 		
-		
 <!-- don't need to use custom sticky because bootstrap provides this	
-	<script src="js/sticky.js"></script>  --> 	
+	<script src="js/sticky.js"></script>  --> 
 
 
 </body>

@@ -1,14 +1,10 @@
+// Detect Safari
+            let safariAgent = 
+                userAgentString.indexOf("Safari") > -1;
+                  
+            // Discard Safari since it also matches Chrome
+            if ((chromeAgent) && (safariAgent)) 
+                safariAgent = false;
 
-
-var theVideo = $(".theVideo");
-
-$theVideo.on('mouseover',function() {  
-    $theVideo.get(0).play(); 
-}
-
-$theVideo.on('mouseout',function() 
-    $theVideo.get(0).pause(); 
-}
-
-
-
+document.querySelector(".output-safari").textContent
+                        = safariAgent;

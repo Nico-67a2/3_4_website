@@ -6,13 +6,14 @@
   margin-right: 15px;		
 }
 
+/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
 .thevideo:hover {
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-
-
-
-/* Hide Play button + controls on iOS */
-video::-webkit-media-controls {
-    display:none !important;
+  -ms-transform: scale(1.5);
+  -moz-transform: scale(1.5);  
+  -webkit-transform: scale(1.5);  
+  -o-transform: scale(1.5);  	
+  transform: scale(1.5); 
+  position: relative;
+  z-index:1;
 }
