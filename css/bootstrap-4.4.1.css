@@ -147,6 +147,11 @@ div.desc {
   text-align: center;
 }
 
+/* center the form*/
+form { 
+		margin: 0 auto; 
+	}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -766,6 +771,12 @@ pre code {
   flex: 0 0 auto;
   width: auto;
   max-width: 100%;
+}
+
+.col-border {
+  -ms-flex: 0 0 3.333333%;
+  flex: 0 0 3.333333%;
+  max-width: 3.333333%;
 }
 
 .col-1 {
