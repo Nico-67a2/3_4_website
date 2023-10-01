@@ -75,6 +75,22 @@ footer {
 }
 
 
+.button-link {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #000000; /* Change to your desired button color */
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.button-link:hover {
+    background-color: #A8A3A3; /* Change to a darker color on hover */
+}
+
+
+
 
 /*
 * added the scrolling wrapper for finite row scrolling 

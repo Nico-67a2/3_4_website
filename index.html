@@ -26,7 +26,7 @@
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"> 
 			<a 
 			   class="navbar-brand" href="#"> 
-				<img src="../../../../../Pictures/glider.webp" alt="" height="100" width="110"> 
+				<img src="./images/conways.png" alt="" height="100" width="110"> 
 			</a>
 			
   			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-	expanded="false" aria-label="Toggle navigation"> 
@@ -79,16 +79,6 @@
 							</a> 
 					</li> 
 
-
-<!--
-					<li class="nav-item"> 
-						<a class="nav-link" href="#about">About 
-								<span 
-									  class="sr-only">(About)
-								</span>
-							</a> 
-					 </li>
--->
 			</ul>
 
 	  </div>
@@ -214,16 +204,15 @@ added padding so that the navbar doesn't cover section title -->
 <!-- This section is for memberships  -->
 	
 <section>
-	<div class="play" id="play" style="padding-top:160px">	
-	
-		<div class="col-12 text-center">
-			  
-			<h1>Play</h1>
-		</div>
+    <div class="play" id="play" style="padding-top: 160px">
 		
-		<iframe src="./web/index.html" width="100%" height="auto">
-		</iframe>
-	</div>	
+        <div class="col-12 text-center">
+            <h1>Play</h1>
+        </div>
+        <a href="./web/index.html" class="button-link"  target="_blank">
+            <img class="img-fluid" src="images/screen.png" alt="" height="400" width="auto">
+        </a>
+    </div>
 </section>
 	
 
@@ -280,109 +269,11 @@ added padding so that the navbar doesn't cover section title -->
 			  </a> 	
 			</div>
 			
-		
+		</div>
 
 		
     <br>
 	  
-<!--   updated this from being a table to being a scrollable row this way you can add more pictures but not take uo more of the page
-       this is important because when you click on an image it zooms it below. When using a table you had to scroll to see zoomed image 
-      that was not a good user experience -->
-	  
-  	<div class="scrolling-wrapper row flex-row flex-nowrap"> 	
-    	<div class="col-3">     
-	  		<div class="gallery"> 
-				<img src="../../../../../Pictures/a studio.PNG" alt="photo of class" width="600" height="500" onclick="zoomIt(this);"> 
-      			<div class="desc"> </div>
-      		</div>
-		</div>
-		<div class="col-border"> </div>
-		<div class="col-3">      
-      		<div class="gallery"> 
-				<img src="images/fullclass.jpg" alt="Full class" width="600" height="400" onclick="zoomIt(this);"> 
-      			<div class="desc"> </div>
-      		</div>
-		</div>
-		<div class="col-border"> </div>
-    	<div class="col-3">  
-	  		<div class="gallery"> 
-				<img src="images/run.jpg" alt="Run" width="600" height="400" onclick="zoomIt(this);"> 
-        		<div class="desc"> </div>	
-	  		</div>	  
-    	</div>
-		<div class="col-border"> </div>
-		<div class="col-3">  
-      		<div class="gallery"> 
-				<img src="images/outsidehiit.jpg" alt="outside hiit" width="600" height="400" onclick="zoomIt(this);">
-        		<div class="desc"> </div>
-      		</div>
-		</div>
-		<div class="col-border"> </div>
-		<div class="col-3">  	  
-	  		<div class="gallery"> 
-				<img src="images/HC_0321.jpg" alt="assault bike" width="600" height="400" onclick="zoomIt(this);">
-        		<div class="desc"> </div>
-      		</div>
-		</div>	
-
-		<!--  removed second row add start so can add images to one scrolling roll		
-	 
-  	</div>	  
-	  
-  	<div class="row"> 	
-        
-         -->
-		<div class="col-border"> </div>
-    	<div class="col-3">     
-	  		<div class="gallery"> 
-				<img src="images/HC_0212.jpg" alt="burpee" width="500" height="400" onclick="zoomIt(this);">
-      			<div class="desc"> </div>
-      		</div>
-		</div>
-		<div class="col-border"> </div>
-		<div class="col-3">      
-      		<div class="gallery"> 
-      			<img src="images/HC_0338.jpg" alt="skip" width="500" height="400" onclick="zoomIt(this);">
-      			<div class="desc"> </div>
-      		</div>
-		</div>
-		<div class="col-border"> </div>
-    	<div class="col-3">  
-	  		<div class="gallery"> 
-      			<img src="images/timetablecardio.jpg" alt="cardio" width="600" height="400" onclick="zoomIt(this);">
-        		<div class="desc"> </div>	
-	  		</div>	  
-    	</div>
-		<div class="col-border"> </div>
-		<div class="col-3">  
-      		<div class="gallery"> 
-      			<img src="images/HC_0404.jpg" alt="rope" width="600" height="400" onclick="zoomIt(this);">
-        		<div class="desc"> </div>
-      		</div>
-		</div>
-		<div class="col-border"> </div>
-		<div class="col-3">  	  
-	  		<div class="gallery"> 
-      			<img src="images/HC_0113.jpg" alt="burpee " width="600" height="400" onclick="zoomIt(this);">
-        		<div class="desc"> </div>
-      		</div>
-		</div>	
-  	</div>
-
-
-<!-- The expanding image container -->
-	<div class="big_pic_container">
-  <!-- Close the image -->
-  		<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-
-  <!-- Expanded image -->
-  		<img id="expandedImg" style="width:100%" alt="">
-
-  <!-- Image text -->
-  		<div id="imgtext"></div>
-	</div>	
-	
-	</div>	
 	
 </section>
 	
